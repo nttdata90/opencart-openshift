@@ -1,0 +1,192 @@
+.pav-categoryproducts {
+	background-color: #fff;
+	border: 1px solid #eecdc8;
+	overflow:  hidden;
+}
+.pav-categoryproducts .tab-content {
+	padding:  0;
+	margin: 0;
+	background: none;
+	border: none;
+	position: relative;
+	width:75%;
+	float:left;
+}
+.pav-categoryproducts .carousel-inner .item {
+	 padding:  0;
+}
+.pav-categoryproducts .carousel-control{
+	z-index:10
+}
+.pav-categoryproducts .product-block {
+	 margin:  0;
+}
+.pav-categoryproducts .product-block .image {
+	float: left;
+	margin-right: 20px;
+}
+.pav-categoryproducts .product-block .description {
+	 padding-bottom:  30px;
+}
+.pav-categoryproducts .tab-content:before {
+	position: absolute;
+	content: '';
+	width: 1px;
+	 background-color: #d0d0d0; 
+	  background-repeat: repeat-x;
+	  /* Safari 4-5, Chrome 1-9 */ 
+	   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EECDC8), to(#FFFEFE));
+	   /* Safari 5.1, Chrome 10+ */ 
+	   background: -webkit-linear-gradient(top, #FFFEFE, #EECDC8);
+	    /* Firefox 3.6+ */ 
+	    background: -moz-linear-gradient(top, #FFFEFE, #EECDC8); 
+	    /* IE 10 */
+	     background: -ms-linear-gradient(top, #FFFEFE, #EECDC8);
+	  /* Opera 11.10+ */
+	   background: -o-linear-gradient(top, #FFFEFE, #EECDC8);
+	 height:  150%;
+	 right: 0;
+	  top: 0;
+}
+.pav-categoryproducts .tab-nav {
+	position: relative;
+	width: 25%;
+	float: left;
+}
+.pav-categoryproducts .tab-nav ul {
+}
+.pav-categoryproducts .tab-nav ul li:before {
+		    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 1px;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+	 /* fallback */ 
+	 background-color: #e0e0e0; 
+	  background-repeat: repeat-y;
+	  /* Safari 4-5, Chrome 1-9 */ 
+	  background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#eecdc8));
+	   /* Safari 5.1, Chrome 10+ */ 
+	   background: -webkit-linear-gradient(left, #eecdc8, #ffffff);
+	    /* Firefox 3.6+ */ 
+	    background: -moz-linear-gradient(left, #eecdc8, #ffffff); 
+	    /* IE 10 */
+	     background: -ms-linear-gradient(left, #eecdc8, #ffffff);
+	  /* Opera 11.10+ */
+	   background: -o-linear-gradient(left, #eecdc8, #ffffff);
+	}
+.pav-categoryproducts .tab-nav ul li {
+	 line-height:  45px;
+	 position: relative;
+	 padding-left: 15px;
+	 padding-right: 15px;
+	 border-top: transparent;
+	 margin-left: -1px; 
+}
+.pav-categoryproducts .tab-nav ul li.active:before {	    
+	bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+	 /* fallback */ 
+	 background-color: #e0e0e0; 
+	  background-repeat: repeat-y;
+	  /* Safari 4-5, Chrome 1-9 */ 
+	  background: -webkit-gradient(linear, left top, right top, from(#e4afab), to(#e4afab));
+	   /* Safari 5.1, Chrome 10+ */ 
+	   background: -webkit-linear-gradient(left, #e4afab, #e4afab);
+	    /* Firefox 3.6+ */ 
+	    background: -moz-linear-gradient(left, #e4afab, #e4afab); 
+	    /* IE 10 */
+	     background: -ms-linear-gradient(left, #e4afab, #e4afab);
+	  /* Opera 11.10+ */
+	   background: -o-linear-gradient(left, #e4afab, #e4afab);
+}
+.pav-categoryproducts .tab-nav ul li.active:after {	    
+	top: -2px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+	 /* fallback */ 
+	 background-color: #e0e0e0; 
+	  background-repeat: repeat-y;
+	  /* Safari 4-5, Chrome 1-9 */ 
+	  background: -webkit-gradient(linear, left top, right top, from(#e0e0e0), to(#e0e0e0));
+	   /* Safari 5.1, Chrome 10+ */ 
+	   background: -webkit-linear-gradient(left, #e0e0e0, #e0e0e0);
+	    /* Firefox 3.6+ */ 
+	    background: -moz-linear-gradient(left, #e0e0e0, #e0e0e0); 
+	    /* IE 10 */
+	     background: -ms-linear-gradient(left, #e0e0e0, #e0e0e0);
+	  /* Opera 11.10+ */
+	   background: -o-linear-gradient(left, #e0e0e0, #e0e0e0);
+}
+
+
+.pav-categoryproducts .tab-nav ul li.active:first-child:after {background:  none;}
+.pav-categoryproducts .tab-nav ul li.active {
+	background-color:  #ffffff;
+	z-index: 10;
+}
+.pav-categoryproducts .tab-nav ul li.active a{
+	 font-weight: bold;
+	 color: #87874f;
+}
+.pav-categoryproducts .tab-nav ul li a{
+	 line-height: 45px;
+	 display: block;
+}
+	.pav-categoryproducts .tab-nav ul li a img {
+		margin-right: 5px;
+	}
+.pav-categoryproducts .tab-content .carousel-controls {
+    height: 25px;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 65px;
+    z-index: 11;
+    top: -100px;
+     transition: all 1s ease 0s;
+     -webkit-transition: all 1s ease 0s;
+     -o-transition: all 1s ease 0s;
+     -moz-transition: all 1s ease 0s;
+     -ms-transition: all 1s ease 0s;
+}
+.pav-categoryproducts .tab-content:hover .carousel-controls {
+ 
+    top: 10px;
+      transition: all 0.5s ease 0s;
+      -webkit-transition: all 0.5s ease 0s;
+      -moz-transition: all 0.5s ease 0s;
+      -o-transition: all 0.5s ease 0s;
+      -ms-transition: all 0.5s ease 0s;
+}
+.carousel-control {
+    background: none repeat scroll 0 0 #db9e99;
+    border: 2px solid #FFFFFF;
+    font-size: 30px;
+    height: 25px;
+    line-height: 18px;
+    opacity: 0.6;
+    width: 25px;
+    margin-top:0;
+}
+.carousel-control.left {
+    left: 0;
+}
+.carousel-control.right {
+    left: auto;
+    right: 0;
+}
+.tab-content .box-products {
+	margin-right: 1px;
+	}
